@@ -2,14 +2,11 @@
 #include "../Headers/Contacts.h"
 
 void afficherMenu();
-void afficherGroupe();
 
 int main(int argc, char** argv){
     Contacts mes_contacts;
 
     int option;
-
-    afficherGroupe();
     system("pause");
     do {
         system("CLS");
@@ -127,18 +124,6 @@ int main(int argc, char** argv){
 
     // save the data to a file
     return 0;
-}
-
-void afficherGroupe(){
-    std::cout << " -----------------------"<<std::endl;
-    std::cout << "|\t Goupe 3\t|" << std::endl;
-    std::cout << " -----------------------"<<std::endl;
-    std::cout << "| -Asmae AJERD\t\t|" << std::endl;
-    std::cout << "| -Imane AOUA\t\t|" << std::endl;
-    std::cout << "| -Zouhair AIT KOURDAS\t|" << std::endl;
-    std::cout << "| -Douae DANI\t\t|" << std::endl;
-    std::cout << "| -Abdelbadia OUALABACH\t|" << std::endl;
-    std::cout << " -----------------------"<<std::endl;
 }
 
 void afficherMenu(){
